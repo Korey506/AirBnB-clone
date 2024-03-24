@@ -67,6 +67,30 @@ ul {
   padding-left: 30px;
   flex-direction: column;
 }
+
+/*
+   ==========================
+   search bar maintain shape
+   ==========================
+*/
+@media only screen and (max-width: 1000px) {
+	.filters {
+		width: 95%;
+		margin: 0 auto;
+	}
+}
+
+/*
+   =========================================
+   swap to vertical layout for small screens
+   =========================================
+ */
+@media only screen and (max-width: 720px) {
+	.filters {
+		display: grid;
+		height: 210px;
+	}
+}
 .popover {
   gap: 20px;
 }
